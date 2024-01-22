@@ -15,7 +15,7 @@ public class EqualsMethodVsEqualOperator {
         System.out.println(str3 == str4); // same object // false
         System.out.println(str3.equals(str4)); // same characters in the same order. //true
 
-        System.out.println(str1.equals(str4));
+        System.out.println(str1.equals(str4)); //true
 
         String str5 = "java";
 
